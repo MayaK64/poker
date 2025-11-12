@@ -119,15 +119,6 @@ class Main(Paquet):
                     break
             if a_2_trouve:
                 return True
-
-        if 14 in valeurs_triees:
-            dix_a_trouve = True
-            for val in [10, 11, 12, 13]:
-                if val not in valeurs_triees:
-                    dix_a_trouve = False
-                    break
-            if a_2_trouve:
-                return True
         
         return False
     
@@ -221,3 +212,4 @@ class JeuPoker:
 
 if __name__ == "__main__":
     JeuPoker().jouer_partie()
+
